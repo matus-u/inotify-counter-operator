@@ -1,0 +1,6 @@
+apiVersion: count-watcher-operator.com/v1
+kind: FileCountWatcher
+metadata:
+  name: fe
+spec:
+  dir: "./"
